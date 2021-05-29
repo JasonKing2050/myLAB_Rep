@@ -16,10 +16,8 @@ public class BonjourNom {
      */
     public static void main(String[] args) {
         Person john = new Person("john", "Doe", 35);
-        Person JF = new Person("JF", "Leb", 56);
         Person deux = new Person(args[0],args[1], 45);
         System.out.println("Prénom : "+ john.getFirstName()+ "\nNom : " + john.getLastName() + "\nAge :  " + john.getAge());
-        System.out.println("Prénom : "+ JF.getFirstName()+ "\nNom : " +JF.getLastName() + "\nAge :  " + JF.getAge());
         System.out.println("Prénom : "+ deux.getFirstName()+ "\nNom : " +deux.getLastName() + "\nAge :  " + deux.getAge());
 
         
