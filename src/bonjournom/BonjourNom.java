@@ -10,7 +10,7 @@ import aleatoire.*;
  * @author oeild
  */
 public class BonjourNom {
-
+    
     /**
      * @param args the command line arguments
      */
